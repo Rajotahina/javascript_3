@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -21,7 +22,10 @@ input{
     font-family: sans-serif;
     padding: 15px 0;
     text-align: center;
+    max-width: 14em;
     border-radius: 50px;
+    margin-inline-end: 1rem;
+    
 }
 label{
    align-items: center;
@@ -39,4 +43,34 @@ section{
     background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     border-color: aliceblue;
+   overflow: visible;
+}
+@media screen  and (max-width: 60em) {
+section{
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 25px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 12em;
+    border-color: aliceblue;
+    flex-direction: column;
+  
+}
+input{
+    border-top: none;
+    border-left: none;
+    outline: none;
+    border-right: none;
+     margin: 5px 8px;
+    font-size: 23px;
+    font-family: sans-serif;
+    padding: 15px 0;
+    text-align: center;
+    max-width: 14em;
+    border-radius: 50px;
+    margin-inline-end: 1rem; 
+}
 }
