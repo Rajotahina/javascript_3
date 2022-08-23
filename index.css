@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(228, 196, 158);
+    padding: 0;
+    background: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+}
+input{
+    border-top: none;
+    border-left: none;
+    outline: none;
+    border-right: none;
+     margin: 10px 80px;
+    font-size: 23px;
+    font-family: sans-serif;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 50px;
+}
+label{
+   align-items: center;
+   color: blue;
+   font-size: 25px;
+   margin: 10px 80px;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: blue;
+    font-size: 25px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
